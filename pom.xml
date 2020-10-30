@@ -14,7 +14,7 @@
         <module>config-client</module>
     </modules>
 
-    <name>sc-f-chapter6</name>
+    <name>my-springcloud-config-test</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -55,8 +55,11 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
             </plugin>
         </plugins>
     </build>
