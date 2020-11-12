@@ -11,5 +11,5 @@ spring:
           username: ''
           password: ''
           searchPaths: respo
-          #uri: https://github.com/forezp/SpringcloudConfig
-          uri: file:///D:/my-project/temp/localgit
+#          uri: https://github.com/forezp/SpringcloudConfig
+          uri: file:///C:/liuye/project/localgit
